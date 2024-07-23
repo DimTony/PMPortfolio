@@ -37,34 +37,24 @@ const theme = createTheme({
 
 const projects = [
   {
-    name: 'HNG Internship Project Management Tool',
+    name: 'Telex',
     description:
-      'Led the development of a project management tool to streamline task allocation and progress tracking for interns.',
+      "Managed the development of a developers' communication tool to streamline task allocation and progress tracking for interns.",
     role: 'Product Manager',
     contributions:
       'Defined product requirements, created user stories, and coordinated with development team to ensure timely delivery.',
-    technologies: ['Agile', 'Jira', 'Figma', 'React', 'Node.js'],
-    link: 'https://example.com/project1',
+    technologies: ['Linear', 'Figma', 'React', 'Node.js'],
+    link: 'https://docs.google.com/document/d/1SHoLdN7y2oMvpHydZ929PETHYR_EYaxEvHg3kpcEIR0/edit',
   },
   {
-    name: 'AI-Powered Customer Service Chatbot',
+    name: 'Remote Bingo',
     description:
-      'Developed an AI chatbot to improve customer service efficiency and response times.',
-    role: 'Product Owner',
-    contributions:
-      'Conducted user research, defined chatbot features, and collaborated with AI engineers to implement natural language processing capabilities.',
-    technologies: ['Machine Learning', 'Python', 'DialogFlow', 'AWS'],
-    link: 'https://example.com/project2',
-  },
-  {
-    name: 'Mobile App for Health Tracking',
-    description:
-      'Created a mobile application for users to track their daily health metrics and receive personalized recommendations.',
+      'Managed the preliminary stages of the creation of an engaging and interactive bingo platform for remote teams to enhance team bonding and collaboration.',
     role: 'Product Manager',
     contributions:
-      'Developed product roadmap, prioritized features based on user feedback, and worked closely with UX designers to create an intuitive interface.',
-    technologies: ['React Native', 'Firebase', 'HealthKit', 'Google Fit API'],
-    link: 'https://example.com/project3',
+      'Led the product vision and strategy, conducted market research and defined key features.',
+    technologies: ['JavaScript', 'Node.js', 'React', 'AWS'],
+    link: 'https://drive.google.com/file/d/1a7KpiSqM38mje_wD-i2wb8SeyC_tvM-T/view?usp=sharing',
   },
 ];
 
@@ -108,11 +98,16 @@ const PMPortfolio = () => {
               cross-functional team leadership, and data-driven decision making.
             </Typography>
             <Typography variant="body1" paragraph>
-              During my time at HNG Internship 11, I led the development of a
-              project management tool that significantly improved team
-              productivity. I collaborated with designers, developers, and
-              stakeholders to ensure the tool met both user needs and business
-              objectives.
+              During my time at HNG Internship 11, I have been a member of the
+              Telex team. Telex is a developers' communication tool. It is a
+              tool for IT professionals such as DevOps, Product Managers,
+              Project Managers, Software Engineers, and Security teams, who need
+              to get real-time notifications per deliverables and achieve
+              efficient communication with teammates and their deployed
+              solutions. It is a product management/monitoring tool that
+              significantly improved team productivity. I collaborated with
+              designers, developers, and stakeholders to ensure the tool met
+              both user needs and product owner's objectives.
             </Typography>
           </Box>
         );
@@ -244,12 +239,12 @@ const PMPortfolio = () => {
             <List>
               <ListItem>
                 <EmailIcon sx={{ mr: 2 }} />
-                <Typography>johndoe@example.com</Typography>
+                <Typography>dhymyantt1@gmail.com</Typography>
               </ListItem>
               <ListItem>
                 <LinkedInIcon sx={{ mr: 2 }} />
                 <Button
-                  href="https://linkedin.com/in/johndoe"
+                  href="https://www.linkedin.com/in/dimojiaku-anthony/"
                   target="_blank"
                   color="primary"
                 >
@@ -259,7 +254,7 @@ const PMPortfolio = () => {
               <ListItem>
                 <GitHubIcon sx={{ mr: 2 }} />
                 <Button
-                  href="https://github.com/johndoe"
+                  href="https://github.com/DimTony"
                   target="_blank"
                   color="primary"
                 >
@@ -279,7 +274,9 @@ const PMPortfolio = () => {
       <CssBaseline />
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">John Doe - Product Manager</Typography>
+          <Typography variant="h6">
+            Dimojiaku Obinna Anthony (Slack ID: @TonyDim) - Product Manager
+          </Typography>
         </Toolbar>
       </AppBar>
       <Container maxWidth="md" sx={{ mt: 4 }}>
